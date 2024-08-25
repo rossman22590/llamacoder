@@ -200,7 +200,7 @@ export default function Home() {
         >
           <span className="text-center">
             Powered by <span className="font-medium">Llama 3.1</span> and{" "}
-            <span className="font-medium">Together AI</span>
+            <span className="font-medium">AI Tutor API</span>
           </span>
         </a>
         <h1 className="my-6 max-w-3xl text-4xl font-bold text-gray-800 sm:text-6xl">
@@ -375,7 +375,7 @@ export default function Home() {
                           );
                           setIsPublishing(false);
                           toast.success(
-                            `Your app has been published & copied to your clipboard! llamacoder.io/share/${appId}`,
+                            `Your app has been published & copied to your clipboard! https://newartifacts.vercel.app/share/${appId}`,
                           );
                           navigator.clipboard.writeText(
                             `${domain}/share/${appId}`,

@@ -58,6 +58,8 @@ let sharedProps = {
       "lucide-react": "latest",
       recharts: "2.9.0",
       "react-router-dom": "latest",
+      "framer-motion": "^11.3.30",
+      "three": "^0.167.1",
       "@radix-ui/react-accordion": "^1.2.0",
       "@radix-ui/react-alert-dialog": "^1.1.1",
       "@radix-ui/react-aspect-ratio": "^1.1.0",
